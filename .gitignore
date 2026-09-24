@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project raw datasets (download locally; do not commit)
+data/*.csv
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Temporary/generated project artifacts
+*.executed.ipynb
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
